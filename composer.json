@@ -5,22 +5,21 @@
     "keywords": ["Drupal"],
     "require": {
         "ext-json": "*",
-        "cweagans/composer-patches": "1.6.5",
-        "drupal/consumers": "1.9.0",
-        "drupal/decoupled_router": "1.7.0",
-        "drupal/jsonapi_extras": "3.x-dev",
-        "drupal/jsonrpc": "1.0.0-beta6",
-        "drupal/oauth2_server": "1.0.0-beta2",
-        "drupal/openapi": "1.0.0-beta2",
-        "drupal/openapi_ui": "1.0.0-rc1",
-        "drupal/openapi_ui_redoc": "1.0.0-rc2",
-        "drupal/openapi_ui_swagger": "1.0.0-rc3",
-        "drupal/openid_connect": "1.0.0-beta5",
-        "drupal/graphql": "3.0.0-rc3",
-        "drupal/schemata": "1.0.0-alpha5",
-        "drupal/subrequests": "2.2.0",
-        "drupal/simple_oauth": "3.14.0",
-        "league/oauth2-server": "7.3.3"
+        "cweagans/composer-patches": "~1.0",
+        "drupal/consumers": "^1.9",
+        "drupal/decoupled_router": "^1.7",
+        "drupal/jsonapi_extras": "^3.6",
+        "drupal/jsonrpc": "^1.0",
+        "drupal/oauth2_server": "^1.0",
+        "drupal/openapi": "^1.0",
+        "drupal/openapi_ui": "^1.0",
+        "drupal/openapi_ui_redoc": "^1.0",
+        "drupal/openapi_ui_swagger": "^1.0",
+        "drupal/openid_connect": "^1.0",
+        "drupal/graphql": "^3.0",
+        "drupal/schemata": "^1.0",
+        "drupal/subrequests": "^2.2",
+        "drupal/simple_oauth": "^3.15",
     },
     "extra": {
         "patches": {
@@ -28,9 +27,6 @@
                 "Exclude disabled JSON API resources": "https://www.drupal.org/files/issues/2018-09-18/3000458--exclude-disabled-resource-types--2.patch",
                 "Documentation for JSON API collections needs minor adjustments": "https://www.drupal.org/files/issues/2018-09-18/3000609--jsonapi-collections-fixes--2.patch",
                 "Improve path method descriptions": "https://www.drupal.org/files/issues/2018-09-29/3001993--initial-description--7.patch"
-            },
-            "drupal/simple_oauth": {
-                "Fatal error on Drupal 8.7 due to upstream changes in FileSystemInterface": "https://www.drupal.org/files/issues/2019-03-30/3043454--filesystem-interface-changes--14.patch"
             }
         }
     }
